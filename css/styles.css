@@ -22,9 +22,13 @@ html{
 }
 
 .header-nav{
+    padding: 20px;
     white-space: nowrap;
     overflow-x: auto;
-    padding: 20px;
+}
+
+.header-nav::-webkit-scrollbar{
+    display: none;
 }
 
 .nav-list{
@@ -37,3 +41,4 @@ html{
     font-size: 2rem;
     text-decoration: none;
 }
+
