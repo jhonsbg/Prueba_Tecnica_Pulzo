@@ -19,10 +19,6 @@ html{
     overflow-x: auto;
 }
 
-/* .page-header::-webkit-scrollbar{
-    display: none;
-} */
-
 .container-logo .logo img{
     width: 120px;
 }
