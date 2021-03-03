@@ -27,20 +27,45 @@ html{
     width: 120px;
 }
 
-.header-nav{
-    padding: 20px;
+.header-stories{
+    padding-left: 28px;
 }
 
-
-.nav-list{
+.stories-list{
     list-style: none;
     display: flex;
-
 }
 
-.nav-list .list-item a{
+.stories-list .list-storie{
+    width: 50px;
+    margin-right: 3.24vw;
+}
+
+.stories-list .list-storie a{
     color: white;
-    font-size: 2rem;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.list-storie a img{
+    width: 46px;
+    padding: 4px;
+    border: #face05 2px solid;
+    border-radius: 50%;
+}
+
+.name-storie{
+    width: 50px;
+    margin-top: 6px;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.name-storie strong{
+    font-weight: 300;
+    font-size: 14px;
+}
