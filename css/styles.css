@@ -15,7 +15,13 @@ html{
     background-color: #08090A;
     display: flex;
     align-items: center;
+    white-space: nowrap;
+    overflow-x: auto;
 }
+
+/* .page-header::-webkit-scrollbar{
+    display: none;
+} */
 
 .container-logo .logo img{
     width: 120px;
@@ -23,15 +29,11 @@ html{
 
 .header-nav{
     padding: 20px;
-    white-space: nowrap;
-    overflow-x: auto;
 }
 
-.header-nav::-webkit-scrollbar{
-    display: none;
-}
 
 .nav-list{
+    list-style: none;
     display: flex;
 
 }
