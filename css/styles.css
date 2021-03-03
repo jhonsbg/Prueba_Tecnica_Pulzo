@@ -316,6 +316,7 @@ html{
     height: 275px;
     align-items: center;
     width: 100%;
+    display: flex;
     overflow-x: scroll;
 }
 
