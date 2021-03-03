@@ -106,6 +106,29 @@ html{
 
 /* main______________________________________________________________________________________ */
 
+/* floating menu______________________________________________________________________________________ */
+.floating-menu{
+    position: fixed;
+    bottom: 130px;
+    right: 10px;
+    z-index: 100;
+}
+
+.floating-menu__container{
+    width: 54px;
+    height: 54px;
+    background-color: var(--bs-white);
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1000;
+}
+
+.floating-menu__container img{
+    width: 54px;
+    height: 54px;
+}
+
 /* Principal section______________________________________________________________________________________ */
 .page-main{
     width: 100%;
