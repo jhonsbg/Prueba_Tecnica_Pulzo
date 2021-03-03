@@ -358,3 +358,12 @@ html{
     font-weight: 700;
     font-size: 12px;
 }
+
+.carousel-news__text{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Helvetica;
+    line-height: 19px;
+    color: var(--bs-white);
+}
